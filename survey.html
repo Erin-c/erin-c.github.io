@@ -1,83 +1,61 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- custom CSS -->
+    <!--<link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <!-- bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
     <title>A Look into Your Future</title>
   </head>
   <body>
-
-      <div class="container">
-        <div class="row">
-            <h1>Let's find out more about your interests</h1>
-        </div>
-        <div class="row owl">
-            <i class="fab fa-earlybirds fa-10x mx-auto owl"></i>
-        </div>
-
-        <br>
-         <div class="row">
-            <div class="col-12"
-            <form>
-              <fieldset>
-                <label for="firstName">Full name</label>
-                <input type="text" name="name" id="firstName" placeholder="Optimus Prime">
-              </fieldset>
-              <br>
-
-              <fieldset>
-                <label for="textarea">Bio</label>
-                <textarea name="textarea" id="textarea" placeholder="Tell us about yourself..."></textarea>
-              </fieldset>
-              <br>
-
-              <fieldset>
-                <legend>Group 1</legend>
-                <input type="checkbox" id="check1" name="checkboxes">
-                <label for="check1">Checkbox 1</label><br>
-                <input type="checkbox" id="check2" name="checkboxes">
-                <label for="check2">Checkbox 2</label><br>
-                <input type="checkbox" id="check3" name="checkboxes">
-                <label for="check3">Checkbox 3</label>
-              </fieldset>
-              <br>
-
-              <fieldset>
-                <legend>Group 2</legend>
-                <input type="radio" id="radio1" name="radios">
-                <label for="radio1">Radio 1</label><br>
-                <input type="radio" id="radio2" name="radios">
-                <label for="radio2">Radio 2</label><br>
-                <input type="radio" id="radio3" name="radios">
-                <label for="radio3">Radio 3</label>
-              </fieldset>
-              <br>
-
-              <fieldset>
-                <label for="select-choice">Transformers fan?</label>
-                <select name="select-choice" id="select-choice">
-                  <option value="Choice 1">- - select one - -</option>
-                  <option value="Choice 2">Yes!</option>
-                  <option value="Choice 3">They're kinda cool, yeah.</option>
-                  <option value="Choice 4">Meh... not really.</option>
-                  <option value="Choice 5">What's Transformers?</option>
-                </select>
-              </fieldset>
-              <br>
-
-              <a href="interests.html"><button type="button" class="btn btn-primary submit"><i class="fas fa-binoculars"></i>
-             Explore my interests!</button></a>
-            </form>
-        </div>
-         </div>
-
+<div class="container">
+	<div class="row">
+    <div class="col">
+		    <h1 class="text-center">Let's explore some of your interests.</h1>
+    </div>
+	</div>
+	<div class="text-center">
+    <p id="q_block" class="question text-center"></p>
+    <br>
+    <!-- support for mobile browsers XS -->
+    <div class="d-block d-sm-none row">
+      <div class="col-12">
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-frown fa-3x"></i></button>
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-meh fa-3x"></i></button>
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-smile fa-3x"></i></button>
+      </div>
+    </div>
+    <!-- support for small browsers SM -->
+    <div class="d-none d-sm-block d-md-none row">
+      <div class="col-12">
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-frown fa-6x"></i></button>
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-meh fa-6x"></i></button>
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-smile fa-6x"></i></button>
+      </div>
+    </div>
+    <!-- support for browser MD LG XL -->
+    <div class="d-none d-md-block row">
+      <div class= "col-12">
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-frown fa-10x"></i></button>
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-meh fa-10x"></i></button>
+        <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-smile fa-10x"></i></button>
+      </div>
+    </div>
+	</div>
+  <br>
+  <br>
+	<div class="text-center results">
+    <a href="interests.html"><button type="button" class="btn btn-primary submit"><i class="fas fa-binoculars"></i>
+     View my results!!</button></a>
+	</div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
