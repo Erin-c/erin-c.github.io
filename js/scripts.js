@@ -114,10 +114,8 @@ add_question();
 
 //JS for matches.html
 
-var current_view = "profiles";
-
-function change_view(new_view){
-    $("#"+current_view).addClass( "d-none" );
-    $("#"+new_view).removeClass( "d-none" );
+function change_view(new_view, current_view){
+    $("."+current_view).addClass( "d-none" );
+    $("."+new_view).removeClass( "d-none" );
     current_view = new_view;
 }

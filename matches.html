@@ -77,22 +77,69 @@
           <div class="carousel-item">
             <div class="card border-0">
               <br>
-              <i class="fas fa-piggy-bank fa-10x mx-auto bank owl"></i>
+              <i class="fas fa-home fa-10x mx-auto bank owl"></i>
               <div class="card-body">
-                <h5 class="card-title">Bank</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Bob-Joe’s Construction Company</h5>
+                <p class="card-text">Bob-Joe has been a trusted hometown source for exterior home improvement since 1954. They specialize in replacement windows, siding, roofing and doors.</p>
               </div>
-              <div class="row">
+
+              <!-- person #1 profile -->
+               <div class="d-none row person4">
+                 <div class="col-sm-12">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <img src="image/thomas-full.jpg" width=100%></img>
+                      <br>
+                      <br>
+                      <p>Role: Architectural and Engineering Manager</p>
+                      <p>Thomas grew up with in interest in repairing household appliances. He later did an apprenticeship to attain technical skills and mechanical skills.
+                        As of late, Thomas has been more interested in drawing designs and blueprints and creating models of his buildings to present to clients.
+                        </p>
+                      <button class="btn btn-primary" type="button" onClick="change_view('profiles-bank','person4');"><i class="fas fa-chevron-circle-left"></i> Go Back
+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- person #2 profile -->
+              <div class="d-none row person5">
+                 <div class="col-sm-12">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <p>This is profile 5</p>
+                      <button class="btn btn-primary" type="button" onClick="change_view('profiles-bank','person5');"><i class="fas fa-chevron-circle-left"></i> Go Back
+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- person #3 profile -->
+              <div class="d-none row person6">
+                 <div class="col-sm-12">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <p>This is profile 6</p>
+                      <button class="btn btn-primary" type="button" onClick="change_view('profiles-bank','person6');"><i class="fas fa-chevron-circle-left"></i> Go Back
+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row profiles-bank">
                 <div class="col-md-4">
                   <div class="card text-center inner-card">
                     <div class="card-body">
-                      <img src="image/man.png"></img>
+                      <img src="image/thomas.png" height="128"></img>
                       <br>
                       <br>
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Thomas Napier</h5>
+                      <p class="card-text">Thomas has been with Bob-Joe for 15 years working his way up from doing household roofing to being a project manager on long-term contracts. </p>
                       <a href="#" class="btn btn-primary"><i class="far fa-envelope"></i> Email</a>
-                      <a href="#" class="btn btn-primary"><i class="fas fa-user-circle"></i> Profile</a>
+                      <button class="btn btn-primary" type="button" onClick="change_view('person4','profiles-bank');"><i class="fas fa-user-circle"></i> Profile
+</button>
                     </div>
                   </div>
                 </div>
@@ -105,7 +152,8 @@
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="#" class="btn btn-primary"><i class="far fa-envelope"></i> Email</a>
-                      <a href="#" class="btn btn-primary"><i class="fas fa-user-circle"></i> Profile </a>
+                      <button class="btn btn-primary" type="button" onClick="change_view('person5','profiles-bank');"><i class="fas fa-user-circle"></i> Profile
+</button>
                     </div>
                   </div>
                 </div>
@@ -118,7 +166,8 @@
                       <h5 class="card-title">Special title treatment</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="#" class="btn btn-primary"><i class="far fa-envelope"></i> Email</a>
-                      <a href="#" class="btn btn-primary"><i class="fas fa-user-circle"></i> Profile </a>
+                      <button class="btn btn-primary" type="button" onClick="change_view('person6','profiles-bank');"><i class="fas fa-user-circle"></i> Profile
+</button>
                     </div>
                   </div>
                 </div>
@@ -135,17 +184,22 @@
               <br>
               <i class="fas fa-headphones fa-10x mx-auto radio"></i>
               <div class="card-body">
-                <h5 class="card-title">Radio Station</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">WKZ Radio Station</h5>
+                <p class="card-text">WKZ Radio is a rock music station that brings you all the best rock songs from the past decades.</p>
               </div>
 
               <!-- person #1 profile -->
-               <div id="person1" class="d-none row">
+               <div class="d-none row person1">
                  <div class="col-sm-12">
                   <div class="card text-center">
                     <div class="card-body">
-                      <p>This is profile 1</p>
-                      <button class="btn btn-primary" type="button" onClick="change_view('profiles');"><i class="fas fa-chevron-circle-left"></i> Go Back
+                      <img src="image/rachel-full.jpg" width=100%></img>
+                      <br>
+                      <br>
+                      <p>Role:Radio and Television Announcer</p>
+                      <p>On a typical day, Rachel hosts civic, charitable, or promotional events that are broadcast over radio. She often writes and edits her own scripts for broadcasts.
+                        She enjoys locating guests from across the nation to talk on her show that focuses on human rights.</p>
+                      <button class="btn btn-primary" type="button" onClick="change_view('profiles-radio','person1');"><i class="fas fa-chevron-circle-left"></i> Go Back
 </button>
                     </div>
                   </div>
@@ -153,12 +207,12 @@
               </div>
 
               <!-- person #2 profile -->
-              <div id="person2" class="d-none row">
+              <div class="d-none row person2">
                  <div class="col-sm-12">
                   <div class="card text-center">
                     <div class="card-body">
                       <p>This is profile 2</p>
-                      <button class="btn btn-primary" type="button" onClick="change_view('profiles');"><i class="fas fa-chevron-circle-left"></i> Go Back
+                      <button class="btn btn-primary" type="button" onClick="change_view('profiles-radio','person2');"><i class="fas fa-chevron-circle-left"></i> Go Back
 </button>
                     </div>
                   </div>
@@ -166,12 +220,12 @@
               </div>
 
               <!-- person #3 profile -->
-              <div id="person3" class="d-none row">
+              <div class="d-none row person3">
                  <div class="col-sm-12">
                   <div class="card text-center">
                     <div class="card-body">
                       <p>This is profile 3</p>
-                      <button class="btn btn-primary" type="button" onClick="change_view('profiles');"><i class="fas fa-chevron-circle-left"></i> Go Back
+                      <button class="btn btn-primary" type="button" onClick="change_view('profiles-radio','person3');"><i class="fas fa-chevron-circle-left"></i> Go Back
 </button>
                     </div>
                   </div>
@@ -179,17 +233,18 @@
               </div>
 
               <!-- profiles view -->
-              <div id="profiles" class="row">
+              <div class="row profiles-radio">
                 <div class="col-md-4">
                   <div class="card text-center inner-card">
                     <div class="card-body">
-                      <img src="image/man2.png"></img>
+                      <img src="image/rachel.png" height="128"></img>
                       <br>
                       <br>
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Rachel Matthews</h5>
+                      <p class="card-text">Rachel has been with WKZ for 5 years. She started as an intern and worked her way up to full-time announcer.
+</p>
                       <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank" class="btn btn-primary"><i class="far fa-envelope"></i> Email</a>
-                      <button class="btn btn-primary" type="button" onClick="change_view('person1');"><i class="fas fa-user-circle"></i> Profile
+                      <button class="btn btn-primary" type="button" onClick="change_view('person1','profiles-radio');"><i class="fas fa-user-circle"></i> Profile
 </button>
                     </div>
                   </div>
@@ -200,10 +255,10 @@
                       <img src="image/man2.png"></img>
                       <br>
                       <br>
-                      <h5 class="card-title">Special title treatment</h5>
+                      <h5 class="card-title">Shawn Green</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank" class="btn btn-primary"><i class="far fa-envelope"></i> Email</a>
-                      <button class="btn btn-primary" type="button" onClick="change_view('person2');"><i class="fas fa-user-circle"></i> Profile
+                      <button class="btn btn-primary" type="button" onClick="change_view('person2','profiles-radio');"><i class="fas fa-user-circle"></i> Profile
 </button>
                     </div>
                   </div>
@@ -214,10 +269,10 @@
                       <img src="image/man2.png"></img>
                       <br>
                       <br>
-                      <h5 class="card-title">Special title treatment</h5>
+                      <h5 class="card-title">Aliess Collins</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank" class="btn btn-primary"><i class="far fa-envelope"></i> Email</a>
-                      <button class="btn btn-primary" type="button" onClick="change_view('person3');"><i class="fas fa-user-circle"></i> Profile
+                      <button class="btn btn-primary" type="button" onClick="change_view('person3','profiles-radio');"><i class="fas fa-user-circle"></i> Profile
 </button>
                     </div>
                   </div>
