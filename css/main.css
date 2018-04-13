@@ -1,5 +1,10 @@
 /*CSS for index.html*/
 
+/*turn off scrolling*/
+body.noScroll {
+  overflow: hidden;
+}
+
 #map {
     height: 100%;
  }
@@ -240,7 +245,6 @@ body {
 }
 .switch {
   position: absolute;
-  top: 50%;
   left: 50%;
   width: 150px;
   height: 50px;
