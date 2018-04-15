@@ -8,6 +8,7 @@
     <title>A Look into Your Future</title>
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Roboto" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
   <style>
@@ -23,19 +24,22 @@
 
     <!-- text for right panel is here -->
     <div id="right-panel">
-      <div class="container">
+      <div class="container scroller">
         <div class="row">
           <div class="col-12">
-            <p>Welcome to CommUnity Connect</p>
+            <p class="title">Welcome to CommUnity Connect!</p>
             <p>Our mission is to enable students to survey and explore their community's assets to identify multiple career pathways and mentors, who can shape their professional pathways.</p>
             <p>Enter your location in the map on the left to explore businesses in your community.</p>
             <img src="image/graphic.jpg" width=100%></img>
             <br>
             <br>
-            <p>Are you ready to go on a journey?</p>
+            <p class="subtitle"><em>Are you ready to go on a journey?</em></p>
             <br>
             <a href="survey.html"><button type="button" class="btn btn-primary"><i class="fas fa-clipboard-list"></i>
             Take an interest survey!</button></a>
+            <br>
+            <br>
+            <br>
           </div>
         </div>
       </div>
@@ -48,12 +52,9 @@
   <!-- custom JS -->
   <script src="js/scripts.js"></script>
   <!-- Google Map API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNS9q9rpjfFQwz-bVzPxbIuNFL9PAb3Z0&libraries=places&callback=initAutocomplete"
-       async defer></script>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNS9q9rpjfFQwz-bVzPxbIuNFL9PAb3Z0&libraries=places&callback=initAutocomplete" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

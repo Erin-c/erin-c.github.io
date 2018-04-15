@@ -4,6 +4,10 @@
 body.noScroll {
   overflow: hidden;
 }
+.scroller {
+  overflow: auto !important;;
+}
+
 
 #map {
     height: 100%;
@@ -20,11 +24,26 @@ body{
 	letter-spacing: .015em;
 	background:#000;
 	height:100%;
-  width:100%
+  width:100%;
+}
+
+.title{
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+  line-height: 50px;
+}
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 
 #description {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
   }
@@ -49,7 +68,7 @@ body{
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     background-color: #fff;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 #pac-container {
@@ -63,14 +82,14 @@ body{
 }
 
 .pac-controls label {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 300;
 }
 
 #pac-input {
     background-color: #fff;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
     margin-left: 12px;
@@ -111,9 +130,8 @@ body{
 }
 
 #right-panel {
-    font-family: 'Roboto','sans-serif';
+    font-family: 'Roboto', sans-serif;
     line-height: 30px;
-    padding-left: 10px;
     margin: 2%;
 }
 
@@ -158,16 +176,10 @@ body{
 }
 /*CSS for survey.html*/
 
-.owl {
-    color: #90DFAA;
-    margin: auto;
-}
-
 .submit {
     margin-bottom: 2%;
 }
 
-/* CSS for survey.html */
 .fa-frown{
   color:#60D4FF;
   margin: 20px;
@@ -189,19 +201,35 @@ body{
 .ans:hover {
     background-color: #E8EEF2;
 }
+.space {
+  margin: 2%;
+}
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 768px) {
-p#q_block {
-    font-size: 50px;
+@media screen and (min-width: 750px) {
+p#q_block, .survey{
+    font-family: 'Roboto', sans-srif;
+    font-size: 40px;
   }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 767px) {
-p#q_block {
-    font-size: 40px;
+@media screen and (max-width: 749px) {
+p#q_block, .survey {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
   }
+}
+
+/* CSS for interests.html*/
+.card-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+strong {
+  font-weight: 900;
 }
 
 /* CSS for matches.html*/
@@ -236,13 +264,9 @@ p#q_block {
 }
 
 .inner-card {
-    margin:20;
+    margin:0;
 }
 
-body {
-  font-family: sans-serif;
-  font-weight: 800;
-}
 .switch {
   position: absolute;
   left: 50%;

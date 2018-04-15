@@ -8,6 +8,7 @@
     <!-- custom CSS -->
     <!--<link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Roboto" rel="stylesheet">
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -15,15 +16,18 @@
     <title>A Look into Your Future</title>
   </head>
   <body>
-<div class="container">
+<div class="container space">
 	<div class="row">
     <div class="col">
-		    <h1 class="text-center">Let's explore some of your interests.</h1>
+        <br>
+		    <h1 class="text-center title">Let's explore some of your interests</h1>
     </div>
 	</div>
-	<div class="card inner-card text-center">
-    <p id="q_block" class="question text-center"></p>
-    <br>
+  <br>
+  <br>
+	<div class="card inner-card text-center survey">
+    <p>Do you like to... </p>
+    <p id="q_block" class="question text-center survey"></p>
     <!-- support for mobile browsers XS -->
     <div class="d-block d-sm-none row">
       <div class="col-12">
@@ -33,7 +37,7 @@
       </div>
     </div>
     <!-- support for small browsers SM -->
-    <div class="d-none d-sm-block d-md-none row">
+    <div class="d-none d-sm-block d-lg-none row">
       <div class="col-12">
         <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-frown fa-6x"></i></button>
         <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-meh fa-6x"></i></button>
@@ -41,20 +45,18 @@
       </div>
     </div>
     <!-- support for browser MD LG XL -->
-    <div class="d-none d-md-block row">
+    <div class="d-none d-lg-block row">
       <div class= "col-12">
         <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-frown fa-10x"></i></button>
         <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-meh fa-10x"></i></button>
         <button type="button" onClick="add_question();" class = "btn ans"><i class="far fa-smile fa-10x"></i></button>
       </div>
     </div>
-    <br>
-    <br>
 	</div>
   <br>
 	<div class="text-center results">
     <a href="interests.html"><button type="button" class="btn btn-primary submit"><i class="fas fa-binoculars"></i>
-     View my results!!</button></a>
+     View my results!</button></a>
 	</div>
 </div>
 
