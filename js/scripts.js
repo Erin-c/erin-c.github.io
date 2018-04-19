@@ -1,7 +1,7 @@
 
 //script for index.html
 
-  function initAutocomplete() {
+function initAutocomplete() {
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 42.3736, lng: -71.1097},
       zoom: 13,
@@ -66,7 +66,9 @@
       });
       map.fitBounds(bounds);
     });
+
   }
+
 //script for survey.html
 
 function QuizItem(question) {
@@ -74,28 +76,28 @@ function QuizItem(question) {
 }
 
 var quizQuestions = []
-quizQuestions[0] = new QuizItem("Write books or plays");
-quizQuestions[1] = new QuizItem("Repair household appliances");
-quizQuestions[2] = new QuizItem("Compose or arrange music");
-quizQuestions[3] = new QuizItem("Host civic, charitable, or promotional events that are broadcast over television or radio");
-quizQuestions[4] = new QuizItem("Examine blood samples using a microscope");
-quizQuestions[5] = new QuizItem("Teach sign language for people with hearing disabilities");
-quizQuestions[6] = new QuizItem("Draw designs and blueprints");
-quizQuestions[7] = new QuizItem("Represent a client in a lawsuit");
-quizQuestions[8] = new QuizItem("Create special effects for movies");
-quizQuestions[9] = new QuizItem("Locate guests to appear on talk or interview shows");
-quizQuestions[10] = new QuizItem("Develop a better way to predict the weather");
-quizQuestions[11] = new QuizItem("Install software across computers on a large network");
-quizQuestions[12] = new QuizItem("Create models of buildings and other things");
-quizQuestions[13] = new QuizItem("Help people overcome barriers and challenges");
-quizQuestions[14] = new QuizItem("Help sick animals get better");
-quizQuestions[15] = new QuizItem("Write and edit video and scripts for broadcasts");
-quizQuestions[16] = new QuizItem("Negotiate, defend and debate");
-quizQuestions[17] = new QuizItem("Play video games and figure out how they work");
-quizQuestions[18] = new QuizItem("Solve technical or mechanical problems");
-quizQuestions[19] = new QuizItem("Find a cure for diseases");
-quizQuestions[20] = new QuizItem("Read and tell stories");
-quizQuestions[21] = new QuizItem("Use video and recording technology");
+quizQuestions[0] = new QuizItem("write books or plays?");
+quizQuestions[1] = new QuizItem("repair household appliances?");
+quizQuestions[2] = new QuizItem("compose or arrange music?");
+quizQuestions[3] = new QuizItem("host civic, charitable, or promotional events that are broadcast over television or radio?");
+quizQuestions[4] = new QuizItem("examine blood samples using a microscope?");
+quizQuestions[5] = new QuizItem("teach sign language for people with hearing disabilities?");
+quizQuestions[6] = new QuizItem("draw designs and blueprints?");
+quizQuestions[7] = new QuizItem("represent a client in a lawsuit?");
+quizQuestions[8] = new QuizItem("create special effects for movies?");
+quizQuestions[9] = new QuizItem("locate guests to appear on talk or interview shows?");
+quizQuestions[10] = new QuizItem("develop a better way to predict the weather?");
+quizQuestions[11] = new QuizItem("install software across computers on a large network?");
+quizQuestions[12] = new QuizItem("create models of buildings and other things?");
+quizQuestions[13] = new QuizItem("help people overcome barriers and challenges?");
+quizQuestions[14] = new QuizItem("help sick animals get better?");
+quizQuestions[15] = new QuizItem("write and edit video and scripts for broadcasts?");
+quizQuestions[16] = new QuizItem("negotiate, defend and debate?");
+quizQuestions[17] = new QuizItem("play video games and figure out how they work?");
+quizQuestions[18] = new QuizItem("solve technical or mechanical problems?");
+quizQuestions[19] = new QuizItem("find a cure for diseases?");
+quizQuestions[20] = new QuizItem("read and tell stories?");
+quizQuestions[21] = new QuizItem("use video and recording technology?");
 
 var currentIndex = 0, numOfAnswered = 0;
 var currentQuestion = quizQuestions[currentIndex];
