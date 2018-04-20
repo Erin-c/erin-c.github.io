@@ -69,7 +69,13 @@ function initAutocomplete() {
 
   }
 
-//script for survey.html
+//JS for matches.html
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+//JS for survey.html
 
 function QuizItem(question) {
   this.question = question;

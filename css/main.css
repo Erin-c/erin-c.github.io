@@ -1,13 +1,11 @@
 /*CSS for index.html*/
 
-/*turn off scrolling*/
-body.noScroll {
-  overflow: hidden;
-}
 .scroller {
   overflow: auto !important;;
 }
-
+.noScroll {
+  overflow: hidden;
+}
 
 #map {
     height: 100%;
@@ -29,8 +27,9 @@ body{
 
 .title{
   font-family: 'Bungee', cursive;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 300%;
+  line-height: 100%;
+
 }
 .subtitle {
   font-family: 'Roboto', sans-serif;
@@ -40,6 +39,11 @@ body{
 .text {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+}
+
+strong {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 #description {
@@ -173,6 +177,67 @@ body{
       float: none;
       width: auto;
     }
+}
+/*CSS for community.html*/
+
+#community {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+    display: grid;
+    height: 100%;
+}
+
+#radiostationDot {
+    width: 20px;
+    position: absolute;
+    top: 66%;
+    left: 25%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#bankDot {
+    width: 20px;
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#constructionDot {
+    width: 20px;
+    position: absolute;
+    top: 66%;
+    left: 61%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.centered {
+   position: absolute;
+   top: 60px;
+   left: 50%;
+   width: 100%;
+   transform: translate(-50%, -50%);
+}
+
+.full {
+  margin:0 !important;
+  padding:0 !important;
+}
+
+.full-pic {
+  width: 100%;
+  height: auto;
+}
+
+.bottom {
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
 }
 /*CSS for survey.html*/
 
