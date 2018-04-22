@@ -7,6 +7,194 @@
   overflow: hidden;
 }
 
+.btn-sample {
+  color: #000;
+  background-color: #F9D949;
+  border-color: #F9D949;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  color: #000;
+  background-color: #E3C643;
+  border-color: #F9D949;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+  background-color: #F9D949;
+  border-color: #F9D949;
+}
+
+.btn-sample .badge {
+  color: #F9D949;
+  background-color: #000;
+}
+
+
+/*bank buttons*/
+.btn-bank {
+  color: #000000;
+  background-color: #A5C882;
+  border-color: #A5C882;
+}
+
+.btn-bank:hover,
+.btn-bank:focus,
+.btn-bank:active,
+.btn-bank.active,
+.open .dropdown-toggle.btn-bank {
+  color: #000000;
+  background-color: #A5C882;
+  border-color: #A5C882;
+}
+
+.btn-bank:active,
+.btn-bank.active,
+.open .dropdown-toggle.btn-bank {
+  background-image: none;
+}
+
+.btn-bank.disabled,
+.btn-bank[disabled],
+fieldset[disabled] .btn-bank,
+.btn-bank.disabled:hover,
+.btn-bank[disabled]:hover,
+fieldset[disabled] .btn-bank:hover,
+.btn-bank.disabled:focus,
+.btn-bank[disabled]:focus,
+fieldset[disabled] .btn-bank:focus,
+.btn-bank.disabled:active,
+.btn-bank[disabled]:active,
+fieldset[disabled] .btn-bank:active,
+.btn-bank.disabled.active,
+.btn-bank[disabled].active,
+fieldset[disabled] .btn-bank.active {
+  background-color: #A5C882;
+  border-color: #A5C882;
+}
+
+.btn-bank .badge {
+  color: #A5C882;
+  background-color: #000000;
+}
+
+/*button for construction */
+.btn-construction {
+  color: #000000;
+  background-color: #5AB1BB;
+  border-color: #5AB1BB;
+}
+
+.btn-construction:hover,
+.btn-construction:focus,
+.btn-construction:active,
+.btn-construction.active,
+.open .dropdown-toggle.btn-construction {
+  color: #000000;
+  background-color: #5AB1BB;
+  border-color: #5AB1BB;
+}
+
+.btn-construction:active,
+.btn-construction.active,
+.open .dropdown-toggle.btn-construction {
+  background-image: none;
+}
+
+.btn-construction.disabled,
+.btn-construction[disabled],
+fieldset[disabled] .btn-construction,
+.btn-construction.disabled:hover,
+.btn-construction[disabled]:hover,
+fieldset[disabled] .btn-construction:hover,
+.btn-construction.disabled:focus,
+.btn-construction[disabled]:focus,
+fieldset[disabled] .btn-construction:focus,
+.btn-construction.disabled:active,
+.btn-construction[disabled]:active,
+fieldset[disabled] .btn-construction:active,
+.btn-construction.disabled.active,
+.btn-construction[disabled].active,
+fieldset[disabled] .btn-construction.active {
+  background-color: #5AB1BB;
+  border-color: #5AB1BB;
+}
+
+.btn-construction .badge {
+  color: #5AB1BB;
+  background-color: #000000;
+}
+
+/*buttons for radio station */
+.btn-radio { 
+  color: #000000;
+  background-color: #C96480;
+  border-color: #C96480;
+}
+
+.btn-radio:hover, 
+.btn-radio:focus, 
+.btn-radio:active, 
+.btn-radio.active, 
+.open .dropdown-toggle.btn-radio { 
+  color: #000000;
+  background-color: #C96480;
+  border-color: #C96480;
+}
+
+.btn-radio:active, 
+.btn-radio.active, 
+.open .dropdown-toggle.btn-radio { 
+  background-image: none;
+}
+
+.btn-radio.disabled, 
+.btn-radio[disabled], 
+fieldset[disabled] .btn-radio, 
+.btn-radio.disabled:hover, 
+.btn-radio[disabled]:hover, 
+fieldset[disabled] .btn-radio:hover, 
+.btn-radio.disabled:focus, 
+.btn-radio[disabled]:focus, 
+fieldset[disabled] .btn-radio:focus, 
+.btn-radio.disabled:active, 
+.btn-radio[disabled]:active, 
+fieldset[disabled] .btn-radio:active, 
+.btn-radio.disabled.active, 
+.btn-radio[disabled].active, 
+fieldset[disabled] .btn-radio.active { 
+  background-color: #C96480;
+  border-color: #C96480;
+}
+
+.btn-radio .badge { 
+  color: #C96480;
+  background-color: #000000;
+}
+
 #map {
     height: 100%;
  }
@@ -237,7 +425,9 @@ strong {
 .bottom {
    position: absolute;
    bottom: 10px;
+   left: 50%;
    width: 100%;
+   transform: translate(-50%, -50%);
 }
 /*CSS for survey.html*/
 
@@ -246,15 +436,15 @@ strong {
 }
 
 .fa-frown{
-  color:#60D4FF;
+  color:#5AB1BB;
   margin: 20px;
 }
 .fa-meh{
-  color:#FFF600;
+  color:#C96480;
   margin: 20px;
 }
 .fa-smile{
-  color:#8DFC91;
+  color:#A5C882;
   margin: 20px;
 }
 
@@ -264,7 +454,7 @@ strong {
 }
 
 .ans:hover {
-    background-color: #E8EEF2;
+    background-color: #E5E5E5;
 }
 .space {
   margin: 2%;
@@ -316,16 +506,16 @@ strong {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23aaa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-.bank {
-    color: #90DFAA;
+.construction {
+    color: #5AB1BB;
 }
 
 .radio {
-    color: #FD8469;
+    color: #C96480;
 }
 
-.library {
-    color: #5DDDD3;
+.bank {
+    color: #A5C882;
 }
 
 .inner-card {
