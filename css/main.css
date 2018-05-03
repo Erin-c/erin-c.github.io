@@ -149,48 +149,48 @@ fieldset[disabled] .btn-construction.active {
 }
 
 /*buttons for radio station */
-.btn-radio { 
+.btn-radio {
   color: #000000;
   background-color: #C96480;
   border-color: #C96480;
 }
 
-.btn-radio:hover, 
-.btn-radio:focus, 
-.btn-radio:active, 
-.btn-radio.active, 
-.open .dropdown-toggle.btn-radio { 
+.btn-radio:hover,
+.btn-radio:focus,
+.btn-radio:active,
+.btn-radio.active,
+.open .dropdown-toggle.btn-radio {
   color: #000000;
   background-color: #C96480;
   border-color: #C96480;
 }
 
-.btn-radio:active, 
-.btn-radio.active, 
-.open .dropdown-toggle.btn-radio { 
+.btn-radio:active,
+.btn-radio.active,
+.open .dropdown-toggle.btn-radio {
   background-image: none;
 }
 
-.btn-radio.disabled, 
-.btn-radio[disabled], 
-fieldset[disabled] .btn-radio, 
-.btn-radio.disabled:hover, 
-.btn-radio[disabled]:hover, 
-fieldset[disabled] .btn-radio:hover, 
-.btn-radio.disabled:focus, 
-.btn-radio[disabled]:focus, 
-fieldset[disabled] .btn-radio:focus, 
-.btn-radio.disabled:active, 
-.btn-radio[disabled]:active, 
-fieldset[disabled] .btn-radio:active, 
-.btn-radio.disabled.active, 
-.btn-radio[disabled].active, 
-fieldset[disabled] .btn-radio.active { 
+.btn-radio.disabled,
+.btn-radio[disabled],
+fieldset[disabled] .btn-radio,
+.btn-radio.disabled:hover,
+.btn-radio[disabled]:hover,
+fieldset[disabled] .btn-radio:hover,
+.btn-radio.disabled:focus,
+.btn-radio[disabled]:focus,
+fieldset[disabled] .btn-radio:focus,
+.btn-radio.disabled:active,
+.btn-radio[disabled]:active,
+fieldset[disabled] .btn-radio:active,
+.btn-radio.disabled.active,
+.btn-radio[disabled].active,
+fieldset[disabled] .btn-radio.active {
   background-color: #C96480;
   border-color: #C96480;
 }
 
-.btn-radio .badge { 
+.btn-radio .badge {
   color: #C96480;
   background-color: #000000;
 }
@@ -386,6 +386,14 @@ strong {
     cursor: pointer;
 }
 
+.radiostationPin {
+    position: absolute;
+    top: 66%;
+    left: 30%;
+    opacity: 1;
+    cursor: pointer;
+}
+
 #bankDot {
     width: 20px;
     position: absolute;
@@ -395,12 +403,28 @@ strong {
     cursor: pointer;
 }
 
+.bankPin {
+    position: absolute;
+    top: 13%;
+    left: 46%;
+    opacity: 1;
+    cursor: pointer;
+}
+
 #constructionDot {
     width: 20px;
     position: absolute;
     top: 66%;
     left: 61%;
     opacity: 0;
+    cursor: pointer;
+}
+
+.constructionPin {
+    position: absolute;
+    top: 64%;
+    left: 67%;
+    opacity: 1;
     cursor: pointer;
 }
 
