@@ -446,6 +446,12 @@ strong {
   height: auto;
 }
 
+#marg {
+  margin-top:2%;
+  margin-left:2%;
+}
+}
+
 .bottom {
    position: absolute;
    bottom: 10px;
